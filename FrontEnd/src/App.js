@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Jokes from './Components/Jokes'
 import PostForm from './Components/PostForm'
-import Header from './Header';
 class App extends Component {
 
     constructor(){
@@ -14,7 +13,7 @@ class App extends Component {
                     
         return (
             <div>
-                <Header/>
+                {/* <Header/> */}
                 
                 <PostForm/>
                 
